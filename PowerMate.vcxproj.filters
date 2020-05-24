@@ -33,7 +33,4 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="Text.txt" />
-  </ItemGroup>
 </Project>
