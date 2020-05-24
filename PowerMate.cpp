@@ -454,7 +454,7 @@ void Characteristic_ValueChanged(GattCharacteristic const& c, GattValueChangedEv
     std::wcout << value_buffer.Length() << "\n";
     uint8_t value{ DataReader::FromBuffer(value_buffer).ReadByte() };
 
-    std::wcout << GetCharacteristicName(c) << L"Value: " << std::hex << value << "\n";
+    std::wcout << GetCharacteristicName(c) << L" Value: " << std::hex << value << "\n";
     actOnPowerMate(value);
 }
 
